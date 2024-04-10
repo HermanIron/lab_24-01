@@ -1,0 +1,49 @@
+body {
+
+      height: 200px;
+      background-color: #f0f0f0;
+      margin: 200px;
+    }
+header {
+ 
+      padding: 10px;
+      text-align: center;
+      color: #080808;
+    }
+    
+
+
+    h1 {
+      color: #F0E7D8;
+      background-color: #992d36;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      font-family:inherit;
+      text-align: center;
+      margin: 20px;
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .bomba {
+      width: 100px;
+      height: 100px;
+      background-image: url('img/bomba.jpeg');
+      background-size: cover;
+      margin: 10px;
+      transition: background-image 0.3s ease; 
+    }
+    
+    .bomba:hover {
+      background-image: url('img/explota.jpeg'); 
+    }
+    
+    .bomba-especial:hover {
+      background-image: url('img/extintor.jpeg');
+    }
